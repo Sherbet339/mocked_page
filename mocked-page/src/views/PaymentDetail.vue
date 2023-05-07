@@ -161,7 +161,7 @@
               <td>$12.99</td>
             </tr>
             <v-divider class="my-3"></v-divider>
-            <tr>
+            <tr class="order-total">
               <td>Order Total</td>
               <td>$570.98</td>
             </tr>
