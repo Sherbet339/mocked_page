@@ -26,6 +26,11 @@
 
 
 .payment-detail {
+    .v-card {
+        padding: 20px;
+        border-radius: 10px;
+    }
+
     .back-btn {
         display: flex;
         justify-items: baseline;
@@ -47,5 +52,22 @@
             display: flex;
             justify-content: baseline;
         }
+    }
+
+    .deliveryPrice {
+        tr {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .total-saving {
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid rgb(34, 201, 123);
+        color: rgb(34, 201, 123);
+        background-color: rgb(234, 255, 245);
+        padding: 12px;
+        border-radius: 5px;
     }
 }
