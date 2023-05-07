@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar color="white" app>
       <div class="d-flex align-center">
-        <h3 style="color: #7f5df7;">Saba</h3>
+        <h3 style="color: #7f5df7">Saba</h3>
         <v-icon class="pl-1" small color="#c5b7fa">mdi-circle</v-icon>
       </div>
       <v-spacer></v-spacer>
@@ -23,16 +23,19 @@
       </v-btn>
     </v-app-bar>
 
-    <v-main> </v-main>
+    <v-main>
+      <PaymentDetail />
+    </v-main>
   </v-app>
 </template>
 
 <script>
 import MenuDropdown from "./components/MenuDropdown.vue";
+import PaymentDetail from "./views/PaymentDetail.vue";
 
 export default {
   name: "App",
-  components: { MenuDropdown },
+  components: { MenuDropdown, PaymentDetail },
   data() {
     return {
       items: [

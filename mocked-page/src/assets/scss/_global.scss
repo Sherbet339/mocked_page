@@ -2,9 +2,12 @@
     background-color: antiquewhite;
 }
 
-.v-app-bar,
-.v-main {
+.v-app-bar {
     padding: 0 100px 0 100px;
+}
+
+.v-main {
+    margin: 30px 100px 0 100px;
 }
 
 .v-btn {
@@ -17,8 +20,32 @@
     }
 }
 
-.menu {
-}
 .container {
     width: auto;
-} 
+}
+
+
+.payment-detail {
+    .back-btn {
+        display: flex;
+        justify-items: baseline;
+        align-items: center;
+    }
+
+    .deliverd-type {
+        .v-icon {
+            margin-right: 10px;
+        }
+
+        .v-radio {
+            padding: 12px;
+            border: 1px solid gray;
+            border-radius: 3px;
+        }
+
+        .radio-label {
+            display: flex;
+            justify-content: baseline;
+        }
+    }
+}
