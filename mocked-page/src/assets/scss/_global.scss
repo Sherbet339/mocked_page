@@ -1,0 +1,14 @@
+.theme--light.v-application {
+    background-color: antiquewhite;
+}
+
+.v-app-bar,
+.v-main {
+    padding: 0 100px 0 100px;
+}
+
+.list-btn {
+    .v-btn:before {
+        background-color: transparent !important;
+    }
+}
